@@ -2,3 +2,26 @@ body{
     background-color: papayawhip;
     color: saddlebrown;
 }
+
+.fokeret{
+margin: auto;
+width: 1200px;
+}
+
+.fejlec{
+background-image: url(szines.jpg);
+padding: 10px;
+}
+
+.menu{
+    float: left;
+    padding: 10px;
+    width: 250px;
+}
+
+.tartalom{
+    float: right;
+    width: 600px;
+    padding: 40px;
+    padding-top: 20px;
+}
