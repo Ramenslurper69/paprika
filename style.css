@@ -4,13 +4,14 @@ body{
 }
 
 .fokeret{
-margin: auto;
-width: 1200px;
+    margin: auto;
+    width: 1200px;
 }
 
 .fejlec{
-background-image: url(szines.jpg);
-padding: 10px;
+    background-image: url(szines.jpg);
+    padding: 10px;
+    background-size: 100%;
 }
 
 .menu{
@@ -21,7 +22,16 @@ padding: 10px;
 
 .tartalom{
     float: right;
-    width: 600px;
+    width: 800px;
     padding: 40px;
-    padding-top: 20px;
+    padding-top: 0px;
+}
+
+li{
+    border: 2px solid blue;
+    background-color: white;
+    list-style-image: url(chili-pepper-icon.gif);
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
